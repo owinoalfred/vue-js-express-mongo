@@ -7,3 +7,6 @@ const app = express();
 //middle ware
 app.use(bodyParser.json());
 app.use(cors);
+
+
+const port = process.env.PORT || 5000;
