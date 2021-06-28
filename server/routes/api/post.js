@@ -3,7 +3,7 @@ const mongodb = require('mongodb')
 
 const router = express.Router()
 
- 
+
 //get post
 router.get('/', (req, res) =>{
     res.send("hello")
